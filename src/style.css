@@ -1,0 +1,40 @@
+html {
+    font-size: 10px;
+    color: rgb(87, 87, 87);
+}
+
+.game-container {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dice-container {
+    display: grid;
+    grid-template: auto auto / repeat(3, 1fr);
+    column-gap: 2rem;
+    max-width: 58rem;
+}
+
+.die {
+    border-radius: 10%;
+    color: white;
+    font-size: 12rem;
+}
+
+.button {
+    border-radius: 0.8rem;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    border: none;
+    background-color: #ed8e00;
+    color: white;
+    appearance: none;
+}
+
+.instructions {
+    text-align: center;
+}
